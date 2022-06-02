@@ -1,0 +1,285 @@
+/*.head{
+	position: fixed;
+	z-index: 9999;
+	background-color: #749FC6;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 50px;
+	border-bottom: solid gray 3px;
+}
+
+
+.tabelhead1{
+	position: fixed;
+	left: 50px;
+}
+
+.tabelhead2{
+	position: fixed;
+	right: 60px;
+}
+.tabelhead1 td{
+	border-left: solid 1px gray;
+	padding-left: 10px;
+	padding-top: 13px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+.tabelhead2 td{
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+	padding-left: 10px;
+	padding-top: 13px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+.iconprofil{
+	position: fixed;
+	font-size: 30px;
+	top: 8px;
+	right: 12px;
+}
+
+body{
+	background-color: #F1F5F9;
+}
+
+.isi{
+	border-top: solid #749FC6 1px;
+	border-bottom: solid #749FC6 1px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #F1F5F9;
+}
+
+.isi h1{
+	color: #749FC6;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.hr{
+	margin-top: 70px;
+}*/
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  	overflow: hidden;
+ 	background-color: #6990BE;
+  	position: fixed;
+  	z-index: 9999;
+	
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 50px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav span {
+  	float: left;
+  	padding: 14px 16px;
+  	font-size:20px;
+  	cursor:pointer; 
+  	background-color: white;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+.topnav a.login {
+  background-color: #6990BE;
+  color: white;
+  text-decoration: none;
+  float: right;
+}
+
+.topnav a.acc {
+  background-color: #6990BE;
+  color: white;
+  text-decoration: none;
+  float: right;
+}
+
+.topnav a.active {
+  background-color: #585858;
+  color: white;
+  text-decoration: none;
+}
+
+.topword {
+	position: absolute;
+	width: 177px;
+	height: 48px;
+	left: 39px;
+	top: 50px;
+
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 70px;
+	
+	align-items: center;
+
+	color: #000D80;
+}
+
+pre {
+	position: absolute;
+	
+	
+	font-family: Aria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  background-color: #6990BE;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav a.active {
+  background-color: #585858;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+.box {
+	position: absolute;
+	width: 1154px;
+	height: 608px;
+	left: 103px;
+	top: 77px;
+	background: conic-gradient(from 176.65deg at 21.1% -58.96%, #03336C 0deg, #FFFFFF 360deg);
+	border-radius: 12px;
+}
+
+.in {
+	position: absolute;
+	width: 886px;
+	height: 515px;
+	left: 157px;
+	top: 77px;
+
+	background: #DADADA;
+	border-radius: 12px;
+}
+width: 189px;
+	height: 20px;
+	left: 50px;
+	top: 223px;
+.tabeltulis {
+	position: relative;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 20px;
+	/* identical to box height, or 83% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+ 
+ .tabeltulis .midpho {
+ 	position: absolute;
+ 	left: 650px;
+ 	top: 118px;
+ }
+
+ .tabeltulis .proftab {
+ 	position: absolute;
+ 	width: 1260px;
+	height: 198px;
+	left: 50px;
+	top: 223px;	
+}
+
+.tabeltulis .proftab a, .tabeltulis .proftab a:hover {
+ 	text-decoration: none;
+ 	color: white;
+}
+
+.tabeltulis .proftab th {
+ 	text-align: left;
+	padding-left: 5px; 
+	border: 1px solid black;
+	background: conic-gradient(from 179.97deg at 39.21% -168.83%, #6990BE 0deg, #FFFFFF 360deg);
+	color: white;
+}
+
+.tabeltulis .proftab td{
+	text-align: right;
+	padding-right: 5px; 
+	border: 1px solid black;
+	background: conic-gradient(from 179.97deg at 39.21% -168.83%, #FFFFFF 0deg,  #B15B5B 360deg);
+	
+}
