@@ -165,10 +165,10 @@ pre {
   z-index: 1;
   top: 50px;
   left: 0;
-  background-color: #6990BE;
+  background-color: #333652;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .sidenav a {
@@ -228,10 +228,10 @@ pre {
 	background: #DADADA;
 	border-radius: 12px;
 }
-width: 189px;
+/*width: 189px;
 	height: 20px;
 	left: 50px;
-	top: 223px;
+	top: 223px;*/
 .tabeltulis {
 	position: relative;
 

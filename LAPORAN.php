@@ -20,7 +20,7 @@ session_start();
 		<div class="container-fluid darkblue">
 			<ul class="navbar-nav">				
 				<li class="nav-item">
-					<a class="nav-link active" href="HOME_ADMIN.php">Home</a>
+					<a class="nav-link" href="HOME_ADMIN.php">Home</a>
 				</li>
 				<li class="nav-item">
         			<a class="nav-link" href="PEMINJAMAN.php">Peminjaman</a>
@@ -29,19 +29,23 @@ session_start();
         			<a class="nav-link" href="PENGEMBALIAN.php">Pengembalian</a>
       			</li>
       			<li class="nav-item">
-        			<a class="nav-link" href="LAPORAN.php">Laporan</a>
+        			<a class="nav-link active" href="LAPORAN.php">Laporan</a>
       			</li>      			
-    		</ul>			
+    		</ul>
+            <button type="button" class="btn" href="LOGOUT.php">Log out</button></div>			
 			<img src="outline_account_circle_white_36.png" style="width:40px; height:40px; float:right;"> 
 		</div>
 	</nav>	
-	<div class="container-md ">
-		<div style="margin-top:250px" class="row">
-			<div class="col text-center">Selamat Datang Di Sistem Informasi Perpustakaan</div>			
-		</div>
-		<div class="d-flex p-1 justify-content-center text-white">
-  			<div class="p-2"><a type="button" class="btn btn-secondary" href="LOGOUT.php">Log out</a></div>
-		</div>
+
+    <form method="POST">
+<div class="container-md fw-bold text-dark">
+	<div class="mb-3 mt-3 px-4 py-2">
+        <label for="IDTrans" class="form-label">ID Transaksi</label>
+        <input type="text" class="form-control" id="IDTrans" name="IDTrans" required>
+        
 	</div>
+    <div class="d-flex justify-content-center"><button type="submit" class="btn btn-secondary text-white mx-4 mb-3" name="submit">Lihat</button></div>
+</div>
+</form>
 </body>
 </html>
