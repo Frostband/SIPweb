@@ -1,0 +1,128 @@
+/*REGISTER*/
+
+.tabelregister{
+	position: absolute;
+	width: 635px;
+	height: 277px;
+	left: 361px;
+	bottom: 146px;
+
+	background: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+.tabellogin{
+	position: absolute;
+	width: 635px;
+	height: 277px;
+	left: 361px;
+	bottom: 146px;
+
+	background: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+h1{
+
+	color: #749FC6;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 24px;
+}
+#Daftar{
+	background-color: #6990BE;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border: none;
+}
+body{
+	background-image: url("Sliced_tempeh.jpg");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+.rectangle1{
+	position: absolute;
+	width: 12px;
+	height: 468px;
+	left: 350px;
+	top: 1px;
+	background: #9D9D9C;
+}
+.rectangle2{
+	position: absolute;
+	width: 12px;
+	height: 469px;
+	left: 997px;
+	top: 0px;
+	background: #9D9D9C;
+}
+.square1{
+	position: absolute;
+	width: 75px;
+	height: 32px;
+	left: 362px;
+	top: 201px;
+	background: #C4C4C4;
+	display: flex;
+}
+.square2{
+	position: absolute;
+	width: 75px;
+	height: 32px;
+	left: 922px;
+	top: 201px;
+	background: #C4C4C4;
+}
+.square3{
+	position: absolute;
+	width: 75px;
+	height: 32px;
+	left: 362px;
+	top: 431px;
+	background: #C4C4C4;
+}
+.square4{
+	position: absolute;
+	width: 75px;
+	height: 32px;
+	left: 922px;
+	top: 431px;
+	background: #C4C4C4;
+}
+#textboxin
+{
+ 	width: 570px;
+	height: 38px;
+	left: 395px;
+	top: 254px;
+
+	background: rgba(196, 196, 196, 0.2);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+#textboxsub{
+	
+	width: 120px;
+	height: 34px;
+	
+	border: 0px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	align-items: center;
+	text-align: center;
+
+	background: #4E81AF;
+	color:  #FFFFFF;
+}
+
+pre{
+	font-family: Aria;
+}
